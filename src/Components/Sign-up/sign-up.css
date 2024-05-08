@@ -1,0 +1,80 @@
+.sign-up {
+    text-align: center;
+}
+
+.container {
+    width: 70% !important;
+}
+
+img {
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 50px;
+    text-align: start;
+}
+
+form div {
+    margin-bottom: 25px;
+}
+
+form div label {
+    color: #5A5A5A;
+    font-weight: 600;
+}
+
+form div span svg {
+    color: #07689F;
+}
+
+form div span input {
+    border: none !important;
+    margin-left: 10px;
+    &:focus {
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+
+form .input-group-text {
+    background: none;
+}
+
+form div button {
+    width: 100% !important;
+    height: 45px;
+    border: none !important;;
+    background-image: linear-gradient(#07689F, #2293D2F0);
+}
+
+p {
+    text-align: center;
+}
+
+form .social-login {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form .social-login button {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    color: black;
+    background: none !important;
+    font-size: 25px;
+    &:hover {
+        color: white !important;
+        background-color: #07689F !important;
+    }
+}
+
+form .log-in-link {
+    text-align: center;
+    a {
+        cursor: pointer;
+    }
+}
